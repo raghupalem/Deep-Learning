@@ -66,3 +66,4 @@ y_pred = classifier.predict(X_test) > 0.5
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 
+print(cm)
